@@ -1,0 +1,59 @@
+{
+  "name": "microformats",
+  "version": "0.0.1",
+  "description": "Helper objects to more easily add microformats2 markup to your applications.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "author": "Luke Hansford <mail@lukehansford.me>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lhansford/microformats.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lhansford/microformats/issues"
+  },
+  "homepage": "https://github.com/lhansford/microformats#readme",
+  "keywords": [
+    "microformats",
+    "microformats2",
+    "indieweb",
+    "microdata",
+    "semantic"
+  ],
+  "scripts": {
+    "build": "rollup --config ./config/rollup.config.js",
+    "lint": "yarn eslint src --ext .js,.ts",
+    "lint:fix": "yarn lint --fix",
+    "test": "jest --config ./config/jest.config.js",
+    "test:watch": "jest --watchAll",
+    "type-check": "tsc --noEmit",
+    "type-check:watch": "yarn type-check -- --watch"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.14.7",
+    "@babel/plugin-transform-async-to-generator": "^7.14.5",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-typescript": "^7.15.0",
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "@types/jest": "^27.0.1",
+    "babel-jest": "^27.0.6",
+    "eslint": "^7.32.0",
+    "eslint-config-lukehansford-base": "^1.1.0",
+    "eslint-plugin-jest-formatting": "^3.0.0",
+    "jest": "^27.0.6",
+    "prettier": "^2.3.2",
+    "rollup": "^2.56.2",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-preserve-shebangs": "^0.2.0",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.3.5"
+  }
+}
