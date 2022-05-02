@@ -48,7 +48,7 @@
     "eslint": "^7.32.0",
     "eslint-config-lukehansford-base": "^1.1.0",
     "eslint-plugin-jest-formatting": "^3.0.0",
-    "jest": "^27.0.6",
+    "jest": "^28.0.3",
     "prettier": "^2.3.2",
     "rollup": "^2.56.2",
     "rollup-plugin-babel": "^4.4.0",
