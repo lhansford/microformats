@@ -44,7 +44,7 @@
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.0.4",
     "@types/jest": "^27.0.1",
-    "babel-jest": "^27.0.6",
+    "babel-jest": "^29.0.1",
     "eslint": "^7.32.0",
     "eslint-config-lukehansford-base": "^1.1.0",
     "eslint-plugin-jest-formatting": "^3.0.0",
